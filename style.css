@@ -178,6 +178,7 @@ section.first>div{
   flex-direction: column;
   padding: 34px 0;
   gap: 0.5rem;
+  height:414px;
 }
 section.first>div :nth-child(1){
   font-size: 48px;
@@ -573,7 +574,15 @@ object-fit: contain;
 }
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
+  .main .shade {
+    height: 644px;
+    width: 100%;
+    opacity: 0.58;
+    position: absolute;
+    top: 0;
+    background-color: black;
+  }
   /* body{
     min-height: 80vh;
     
