@@ -159,7 +159,7 @@ nav button {
 
 .secImg{
   position: relative;
-   z-index: -10;
+  z-index: -10;
 }
 .secImg img{
   position: relative;
@@ -179,7 +179,6 @@ section.first>div{
   flex-direction: column;
   padding: 34px 0;
   gap: 0.5rem;
-  height:414px;
 }
 section.first>div :nth-child(1){
   font-size: 48px;
@@ -424,17 +423,62 @@ footer{
   font-size: 14px;
   background-color: black;
   color: white;
-  border: 1PX s@media screen and (max-width:430px){
-  body{
-    display: flex;
+  border: 1PX solid black;
+}
+.eng img{
+border-radius: 50%;
+object-fit: contain;
 
- flex-direction: column;
+ 
+}
+
+@media screen and (max-width:1300px){
+  nav{
+    max-width: 90vw;
+  }
+  .first{
+    flex-wrap: wrap;
+  }
+  .secImg img{
+    width: 405px;
+  }
+  .secImg video{
+    width: 405px;
+  }
+  .HERO > :nth-child(1) {
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+  }
+  .HERO > :nth-child(2) {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+  }
+  .HERO > :nth-child(3) {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35%;
+    gap: 1em;
   }
 }
-@media screen and (max-width:430px){
-  body{
-    display: flex;
 
- flex-direction: column;
+@media screen and (max-width:1300px){
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
+  .faq h2 {
+    text-align: center;
+    font-size: 26px;
+}
 }
