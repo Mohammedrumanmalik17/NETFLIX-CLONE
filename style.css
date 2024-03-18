@@ -159,6 +159,7 @@ nav button {
 
 .secImg{
   position: relative;
+   z-index: -10;
 }
 .secImg img{
   position: relative;
@@ -480,6 +481,7 @@ object-fit: contain;
 }
 
 @media screen and (max-width:1300px){
+  
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -506,6 +508,14 @@ object-fit: contain;
 
 
 @media screen and (max-width:450px){
+    .main .shade {
+    height: 644px;
+    width: 100vw;
+    opacity: 0.58;
+    position: absolute;
+    top: 0;
+    background-color: black;
+  }
 
   nav {
     max-width: 90vw;
@@ -549,6 +559,14 @@ object-fit: contain;
 }
 
 @media screen and (max-width:450px){
+    .main .shade {
+    height: 644px;
+    width: 100vw;
+    opacity: 0.58;
+    position: absolute;
+    top: 0;
+    background-color: black;
+  }
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -577,7 +595,7 @@ object-fit: contain;
 @media screen and (max-width:500px){
   .main .shade {
     height: 644px;
-    width: 100%;
+    width: 100vw;
     opacity: 0.58;
     position: absolute;
     top: 0;
