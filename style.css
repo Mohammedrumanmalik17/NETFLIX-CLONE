@@ -402,10 +402,7 @@ footer .Questions {
 }
 
 @media screen and (max-width:500px){
-   body{
-    height: 100vh;
-  
-  }
+ 
   nav{
     max-width: 90vw;
   }
